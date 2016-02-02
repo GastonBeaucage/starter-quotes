@@ -12,7 +12,7 @@ K&R Style
 Team Members
 ************
 
-Gaston
+Gaston Beaucage
 Sean
 
 This is the starter webapp for Tutorial ci-normal01
