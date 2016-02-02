@@ -13,7 +13,7 @@ Team Members
 ************
 
 Gaston
-Sean
+Sean Lavergne
 
 This is the starter webapp for Tutorial ci-normal01
 
