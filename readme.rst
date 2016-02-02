@@ -14,6 +14,7 @@ Team Members
 
 Gaston
 Sean
+Denis
 
 This is the starter webapp for Tutorial ci-normal01
 
