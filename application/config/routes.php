@@ -45,6 +45,8 @@ $route['sleep']= 'First/zzz';
 $route['lock/:any/:any'] = "welcome/shucks";
 $route['show/(:num)']="First/gimme/$1";
 $route['last'] = 'last/welcome';
+
+//exectures a function that displays a gif
 $route['dunno'] = function()
     {
         $source = './assets/images/rick.gif'; // an image you provide
