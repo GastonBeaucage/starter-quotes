@@ -7,11 +7,9 @@ class Welcome extends Application {
 		parent::__construct();
 	}
 
-
 	function index()
 	{
-                $this->data['pagebody'] = 'justone';
-            
+                $this->data['pagebody'] = 'justone';          
                 $record = $this->quotes->last();
                 $this->data['who'] = $record['who'];
                 $this->data['mug'] = $record['mug'];

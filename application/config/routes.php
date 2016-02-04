@@ -38,9 +38,19 @@
 |
 */
 
+
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 $route['last'] = 'last/welcome';
+$route['dunno'] = function()
+    {
+        $source = './assets/images/rick.gif'; // an image you provide
+        if (!file_exists($source)) { show_404($source); }
+        header("Content-type: image/gif"); 
+        header('Content-Disposition: inline');
+        readfile($source); // dish it
+        die(); // and we don't have to go any further
+    };
 
 
 
