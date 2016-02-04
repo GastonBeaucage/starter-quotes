@@ -45,6 +45,8 @@ $route['sleep']= 'First/zzz';
 $route['lock/:any/:any'] = "welcome/shucks";
 $route['show/(:num)']="First/gimme/$1";
 $route['last'] = 'last/welcome';
+$route['(^[a-zA-Z]{4}$)/bingo'] = "bingo";
+//$route['wise/bingo'] = "bingo";
 
 //exectures a function that displays a gif
 $route['dunno'] = function()
