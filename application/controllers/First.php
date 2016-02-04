@@ -20,6 +20,14 @@ class First extends Application {
 		$this->render();
 
 	}
-
+        
+        function zzz(){
+            
+            $this->data['pagebody'] = 'justone';
+            $this->render();
+        }
+        
+        function gimme($id){
+            
+        }
 }
-
