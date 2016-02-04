@@ -6,7 +6,7 @@ Starter Webapp - Quotes
 Coding Style:
 *************
 
-K&R Style
+Allman
 
 ************
 Team Members
