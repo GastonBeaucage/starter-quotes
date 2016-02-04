@@ -7,16 +7,16 @@ class First extends Application {
 		parent::__construct();
 	}
 
-
+        /*opens the just one view and populates it with the data from the first
+         * item in quotes
+         */
 	function index()
 	{
-                $this->data['pagebody'] = 'justone';
-            
-                $record = $this->quotes->first();
+                $this->data['pagebody'] = 'justone';//the view to load
+                $record = $this->quotes->first();//the frirst quotes entry
                 $this->data['who'] = $record['who'];
                 $this->data['mug'] = $record['mug'];
                 $this->data['what'] = $record['what'];
-
 		$this->render();
 
 	}

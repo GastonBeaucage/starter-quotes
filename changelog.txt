@@ -1,5 +1,8 @@
 Newest changes placed at top of file
 ####################################
++ added assets/images/rick.gif
+
++Fixed link 6
 
 +Fixed link 4
 
