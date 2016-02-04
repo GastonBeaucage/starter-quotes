@@ -33,7 +33,7 @@ class First extends Application {
         
         function gimme($id){
             $this->data['pagebody'] = 'justone';
-            $source = $this->quotes->get(3);
+            $source = $this->quotes->get($id);
             $this->data['who'] = $source['who'];
             $this->data['what']= $source['what'];
             $this->data['mug']= $source['mug']; 
